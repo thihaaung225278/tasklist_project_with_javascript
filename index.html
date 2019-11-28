@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card mt-3 shadow">
+                    <div class="card-header">
+                        <h5 class="text-primary">Task List</h5>
+                    </div>
+                    <div class="card-body">
+                        <form class="form-row" id="task-form">
+                            <div class="col-sm-10">
+                                <div class="input-group mt-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bg-primary text-white">
+                                            <i class="fas fa-tasks"></i>
+                                        </div>
+                                    </div>
+                                    <input   type="text" class="form-control" id="task" placeholder="Add New Task">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="submit" id="add-task" class="btn btn-primary btn-block mt-3" value="Add Task">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <div class="card mt-3 shadow">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-4 col-xs-2">
+                                <h5 id="text-success" class="text-success">Lists</h5>       
+                            </div>
+                            <div class="col-md-4 col-sm-8 col-xs-10">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bg-success text-white">
+                                            <i class="fas fa-search"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="filter" placeholder="Filter Task">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <!-- <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello One
+                                <a href="#" class="delete-item example-classList">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello Two
+                                <a href="#" class="delete-item">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello Three
+                                <a href="#" class="delete-item">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello Four
+                                <a href="#" class="delete-item">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello Five
+                                <a href="#" class="delete-item">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                Hello Six
+                                <a href="#" class="delete-item">
+                                    <i class="fas fa-times text-danger"></i>
+                                </a>
+                            </li> -->
+                        </ul>
+                        
+                        <a href="" class="btn btn-success btn-block mt-3" id="remove-all-tasks">Clear Tasts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9e4f5b5b44.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
